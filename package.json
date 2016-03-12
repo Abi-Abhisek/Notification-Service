@@ -1,0 +1,25 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "a test editor webapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "editor"
+  ],
+  "author": "Abhisek",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": ">=0.0.0",
+    "express": "^4.12.0",
+    "fs": "^5.7.0",
+    "path": "^5.7.0",
+    "body-parser": "^1.15.0",
+    "multer": "^0.1.8"
+    "socket.io" : ">0.0.0"
+    "http": "^5.7.0"
+
+  }
+}

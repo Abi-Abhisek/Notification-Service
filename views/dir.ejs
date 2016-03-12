@@ -1,0 +1,62 @@
+
+<html>
+<head>
+<script src="/script/jquery.js"></script>
+  
+<script src="/script/socket.io.js"></script>
+	<title>Notification</title>
+  <link rel="stylesheet" type="text/css" href="/views/style.css">
+</head>
+
+<body id="top"> 
+<header>
+<h1>"File Upload Notification"</h1>
+</header>
+<section class="part2">
+ <% for(var i=0;i<files.length;i++) {%>
+   <section class="option">
+     <ul>
+      <section id="filename">
+      <h4>File Name:<h4>
+    	<%= files[i] %>
+      </section>
+   </ul>
+   </section>
+  <% } %>
+ </section>
+ <script>
+var socket = io("http://localhost:8000");
+      socket.on('connect',function(d){
+        console.log('connected to client');
+        socket.on('uploaded', function(data){
+          console.log(data);
+         $('.qwerty').append(JSON.stringify(data));
+        });
+      });
+      
+</script>
+<div class="part3">
+
+<aside  class="qwerty">
+ 
+  
+
+
+</aside>
+</div>
+
+ <footer class="end">
+  <form action="/" method="POST" enctype="multipart/form-data">
+  <input type="file" name="upload"> 
+  <input type="submit" value="uplaod image"><ul>
+  <input type="text" name="rest1" placeholder="Restrict 1">
+  <input type="text" name="rest2" placeholder="Restrict 2">
+  <input type="text" name="rest3" placeholder="Restrict 3"></ul>
+ </form>
+  <h3><a href="#top">Back to Top</h3>
+</footer>
+
+
+
+</body>
+</html>

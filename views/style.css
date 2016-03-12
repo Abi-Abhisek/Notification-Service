@@ -1,0 +1,160 @@
+
+    body {
+     color: #888;
+     font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica,
+       Arial, sans-serif;
+        background: #fff;
+
+    }
+    h1, h2, h3, h4 {
+     color: #648880;
+   }
+    h1 {
+     font-size: 36px;
+     line-height: 44px;
+   }
+   h2 {
+     font-size: 24px;
+     line-height: 44px;
+   }
+   h3 {
+    font-size: 21px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  a {
+     color: #648880;
+     text-decoration: none;
+   }
+  a:hover {
+    color: #a9b2b9;
+  }
+   header{
+   	 color: #888;
+    	padding: 20px 0px 20px 480px;
+    	border:2px solid grey;
+    	background: #293f50;
+    }
+    
+    .part1{
+
+    	border:2px solid #fff;
+    	
+    margin: 10px;
+     width: 20%;
+    border-radius: 5px;
+    color: #fff;
+     cursor: pointer;
+    
+     font-weight: 400;
+     letter-spacing: .5px;
+    
+     text-transform: uppercase;
+     text-align: center;
+     
+     padding: 10px 30px;
+     background: #293f50;
+    margin-left: 40%;
+    }
+    .part2{
+    	float:left;
+    	border:2px solid grey;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	width: 65%;
+ background: #293f50;
+    }
+    .part3{
+    	
+    	border:2px solid grey;
+    	margin-top: 20px;
+        width: 30%;
+        height: 300px;
+    	float:right;
+    	margin-bottom: 90px;
+    	text-align: centre;
+    	 background: #fff;
+    }
+    li{
+    	list-style-type: none;
+    }
+    footer{
+    	border-top:2px solid grey;
+    	clear: both;
+    	margin-top: 400px;
+    	background: #C0C0C0;
+    	padding-bottom: 20px;
+      max-height: 200px;
+
+    }
+    footer a {
+    	color:black;
+    }
+    img{
+    	padding-left: 14%;
+    	width: 60%;
+    	height: 40%;
+    }
+    #author{
+    	margin-left:15%; 
+    	margin-right:20%;
+    	text-align: center;
+    	background-color: #fff;
+    }
+    #filename{
+    	font-style: italic;
+    }
+    .option{
+    	margin: 5px 10px 0px 10px;
+    	border:2px solid grey;
+    	background: #fff;
+
+    }
+    #bttn{
+    	display: inline-block;
+    margin: 0 1.5%;
+     width: 20%;
+    border-radius: 5px;
+    color: #fff;
+     cursor: pointer;
+     display: inline-block;
+     font-weight: 400;
+     letter-spacing: .5px;
+    
+     text-transform: uppercase;
+     text-align: center;
+     border: 1px solid  #293f50;;
+     padding: 10px 30px;
+      background: #293f50;
+    }
+    #bttn:hover{
+    	background: #fff;
+        color: #648880;
+    }
+
+   aside h2{
+   	text-align: center;
+   }
+   footer{
+   	text-align: center;
+   }
+   form {
+      border: 2px solid black;
+      border-radius: 5px;
+      font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      overflow: hidden;
+      width: 40%;
+      margin-left: 30%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+  }
+  .editor{
+  	background:grey;
+  	color:black;
+
+  }
+  .text{
+  	margin-top: 100px;
+  }
